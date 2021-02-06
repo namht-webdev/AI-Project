@@ -1,0 +1,28 @@
+male(X). Ai là đàn ông? 
+female(X). % Ai là phụ nữ? 
+male(prince_phillip). % Prince Phillip có phải là đàn ông không? 
+female(prince_andrew). % Prince Andrew có phải là phụ nữ không? 
+parent(prince_phillip, sarah_ferguson). % Prince Phillip có phải bố mẹ của Sarah Ferguson không? 
+parent(prince_phillip, X). % Prince Phillip là bố mẹ của những ai? ok
+divorced(prince_charles, princess_diana). % Prince Charles đã ly hôn với Princess Diana phải không? oke
+divorced(captain_mark_phillips, X). %Captain Mark Phillips ly hon với ai? oke
+husband(prince_charles, X). % Prince Charles là chồng của ai? oke
+wife(X, timothy_laurence). % ai là vợ của Timothy Laurence? 
+wife(X, prince_william). % ai là vợ của Prince William? 
+father(prince_william, X). % Prince William là cha của những ai? 
+mother(peter_phillips, isla_phillips). % Peter Phillips có phải là mẹ của Isla Phillips không? 
+child(prince_edward, prince_phillip). % Prince Edward có phải là con của Prince Phillip không? 
+son(prince_harry, X). % Prince Harry là con trai của ai? 
+daughter(X, autumn_kelly). % ai là con gái của Autmn Kelly?
+grandparent(prince_anne, james_viscount_severn). % Prince Anne có phải là ông bà của James Viscount Severn không? 
+grandmother(X, prince_george). % ai là ông bà ngoại của Prince Geogre 
+grandmother(princess_diana, X). % ai là cháu nội của Prince Diana 
+grandchild(princess_charlotte, zara_phillips). % Princess Charlotte có phải là cháu của Zara Phillips không? 
+grandson(mike_tindall, prince_phillip). % Mike Tindall có phải là cháu trai của Prince Phillip không? 
+granddaughter(X,princess_anne ). % Ai là cháu gái của princess anne 
+sibling(peter_phillips, autumn_kelly). Peter Phillips là anh em với Autumn Kelly phải không? 
+brother(X, prince_william). % Ai là anh/ em trai của Prince William 
+sister(prince_diana, camilla_parker_bowles). % Prince Diana có phải là chị em gai của Camilla Parker Bowles không? 
+aunt(X, mia_grace_tindall). % Ai là dì của Mia Grace Tindall?
+uncle(prince_harry, X). % Prince Harry là chú của những ai ? 
+niece(princess_eugenie, princess_anne). % Princess Eugenie có là cháu gái của princess anne? nephew(james_viscount_severn, X). % James_Viscount_Severn là cháu trai của ai(Co chu)? 

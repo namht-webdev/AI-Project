@@ -1,0 +1,20 @@
+nuong_tu(X, thanh_long). % Ai la nuong tu cua Thanh Long?
+nuong_tu(trung_nhan, X). % Trung Nhan la nuong tu cua ai?
+tuong_cong(trung_nam, X). % Trung Nam la tuong cong cua ai?
+tuong_cong(X, minh_nguyen). % Ai la tuong cong cua Minh Nguyen?
+su_mau(X, cong_minh). % Ai la su mau cua Cong Minh?
+su_mau(phuc_nguyen, X). % Phuc Nguyen la su mau cua ai?
+su_de(X, thanh_long). % Ai la su de cua Thanh Long?
+su_de(dai_long, X). % Dai Long la su de cua ai?
+tau_tau(bui_nguyen, X). % Bui Nguyen la tau tau cua ai?
+tau_tau(trung_nhan, dinh_thuc). % Trung Nhan co phai la tau tau cua Dinh Thuc khong?
+de_muoi(dai_nghia, phuong_nam). % Dai Nghia la de muoi cua Phuong Nam phai khong?
+de_muoi(phuc_nguyen, X). % Ai la de muoi cua Phuc Nguyen?
+su_ba(trung_nam, X). % Trung Nam la su ba cua ai?
+su_ba(thanh_long, cong_minh). % Thanh Long co phai la su ba cua Cong Minh khong?
+su_phu(minh_nguyen, X). % Minh Nguyen la su phu cua ai?
+su_phu(X, luong_nhan). % Ai la su phu cua Luong Nhan?
+su_thuc(X, dai_long). % Ai la su thuc cua Dai Long?
+su_thuc(tran_nam, X). % Tran Nam la su thuc cua ai?
+su_nuong(X, danh_luu). % Ai la su nuong cua Danh Luu?
+su_nuong(duc_nang, X). % Duc Nang la su nuong cua ai?
